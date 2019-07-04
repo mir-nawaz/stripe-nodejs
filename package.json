@@ -1,0 +1,25 @@
+{
+  "name": "NodejsStripePayment",
+  "version": "1.0.0",
+  "description": "Stripe payment implementation with nodejs server.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "eslint . --cache --ignore-path .eslintignore",
+    "fix": "eslint . --fix --cache --ignore-path .eslintignore",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "stripe": "^6.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1"
+  }
+}

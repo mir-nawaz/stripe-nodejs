@@ -1,0 +1,20 @@
+.env
+# Dependency directory
+node_modules
+
+# Environment variables
+config/*.json
+*-lock.json
+
+# logs
+**/*.log
+*.log
+
+# eslint cache
+.eslintcache
+
+.idea
+.vscode
+
+log
+!logs/.keep

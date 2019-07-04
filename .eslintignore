@@ -1,0 +1,43 @@
+# build folder
+build
+**/build
+
+# build folder
+public
+**/public
+src/common/Ajax.js
+src/common/CheckBoxList.js
+app.js
+
+# WebStrom indexes idea
+.idea
+**/.idea
+
+# Visual Studio indexes vscode
+.vscode
+**/.vscode
+
+# logs
+*.log.*
+**/*.log.*
+**/*.log
+
+# blocks
+**/*.block
+
+# package lock
+*-lock.json
+**/*-lock.json
+
+# node modules
+node_modules
+**/node_modules
+
+# setup scripts
+scripts
+
+# webpack configs
+config
+
+# frontend build
+public/
